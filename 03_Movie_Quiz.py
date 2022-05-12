@@ -12,8 +12,8 @@ score = 0
 
 
 # 1st Question
-print('The best planet to celabrate Mother`s day on?')
-answer = input('A.Venus, B.Pluto, C.LV-426 ')
+print('Which one is the best "planet" to celabrate Mother`s day on?')
+answer = input('A.The Sun, B.Ton 618(black hole), C.LV-426 ')
 if answer.upper() != 'C':
     print('Incorrect')
 else:
@@ -43,7 +43,7 @@ print("")
 
 # 4th Question
 print('What is the ring carrier`s profession?')
-answer = input('A.Be a nephew, B.Be a hobbit, C.Be a chihuahua ')
+answer = input('A.Be a nephew, B.Be a hobbit, C.Spartans: Auhh Auhh Auhh  ')
 if answer.upper() != 'A':
     print('Incorrect')
 else:
@@ -62,9 +62,9 @@ else:
 print("")
 
 
-# print('Your score: ' + score + '/ ' + )
+print('Your got ' + str(score) + ' answers right! (' + str(score/5*100) + '%)\n')
 
-print("Thx for playing!")
+print("Thx for playing!\n")
 
 
 
