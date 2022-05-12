@@ -2,10 +2,11 @@
 
 import random
 from openpyxl import Workbook, load_workbook
-wb = load_workbook('D:/Movies.xlsx')
+wb = load_workbook('D:/Movies.xlsx', data_only=True)
 ws = wb.active
 
-#after line 67356 there is still a title at the moment (to line 21)
+#data_only=True -> copying values from excel instead of formulas for the Haveseen value
+#after line 67356 there is still a title at the moment (guide line 31)
 
 cellnumber = random.randrange(6,6736)
 
@@ -22,9 +23,13 @@ HaveSeen = ws[cellHSeen].value
 
 print()
 
+
 if movietitle != None:
     print('Your movie this afternoon: ' + str(movietitle) + '(' + str(ReleaseYear) + ')')
- #   print('You have seen this movie ' + int(HaveSeen) +  ' times.')
+    if HaveSeen == 1: 
+        print('You have seen this movie only once.\n')
+    else:
+        print('You have seen this movie ' + str(HaveSeen) +  ' times.\n')
     quit() 
 
 while movietitle == None:
@@ -37,6 +42,8 @@ while movietitle == None:
     HaveSeen = ws[cellHSeen].value
     
 print('Your movie tonight: ' + str(movietitle) + '(' + str(ReleaseYear) + ')')
-#print('You have seen this movie ' + int(HaveSeen) +  ' times.')
 
-print()
+if HaveSeen == 1: 
+    print('You have seen this movie only once.\n')
+else:
+    print('You have seen this movie ' + str(HaveSeen) +  ' times.\n')
