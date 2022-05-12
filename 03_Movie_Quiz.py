@@ -65,7 +65,3 @@ print("")
 print('Your got ' + str(score) + ' answers right! (' + str(score/5*100) + '%)\n')
 
 print("Thx for playing!\n")
-
-
-
-
