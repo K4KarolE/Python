@@ -27,9 +27,9 @@ print()
 if movietitle != None:
     print('Your movie this afternoon: ' + str(movietitle) + '(' + str(ReleaseYear) + ')')
     if HaveSeen == 1: 
-        print('You have seen this movie only once.\n')
+        print('You have seen this movie only once since 05/2012.\n')
     else:
-        print('You have seen this movie ' + str(HaveSeen) +  ' times.\n')
+        print('You have seen this movie ' + str(HaveSeen) +  ' times since 05/2012.\n')
     quit() 
 
 while movietitle == None:
@@ -44,6 +44,6 @@ while movietitle == None:
 print('Your movie tonight: ' + str(movietitle) + '(' + str(ReleaseYear) + ')')
 
 if HaveSeen == 1: 
-    print('You have seen this movie only once.\n')
+    print('You have seen this movie only once since 05/2012.\n')
 else:
-    print('You have seen this movie ' + str(HaveSeen) +  ' times.\n')
+    print('You have seen this movie ' + str(HaveSeen) +  ' times since 05/2012.\n')
