@@ -7,6 +7,7 @@ print()
 answer = input('Are you ready for playing?\n')
 
 if answer.lower() != 'yes':
+    print('Bye!\n')
     quit()
 
 print()
@@ -19,7 +20,6 @@ characterlist = ['¬', '£', '$', '%', '&', '#', '@', '?', '=', '+']
 charset = list(set(characterlist))                       # set(it is a list type) = data is randomly placed 
 
 character = charset[2]                                   # any number-> position -> character -the list is randomly generated, pls see previous comment
-
 
 
 
@@ -90,6 +90,12 @@ print()
 print()
 
 allchar = targetnumber + targetnumber2nd + targetnumber3rd
-print('Your score: ' + str(allchar - score) + '/' + str(allchar))
+percent = (allchar - score) / allchar
+percentprint = format( percent, '.2%')
+print('Your score: ' + str(allchar - score) + '/' + str(allchar) + ' - ' + percentprint)
+
+print()
+
+print('Thx for playing!')
 
 print()
