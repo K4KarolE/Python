@@ -28,13 +28,17 @@ print(character * targetnumber)
 characterlist.remove(charset[2])                          # removing the used character from the list
 
 while True:
-    try: 
-        answer = int(input('Guess the amount of characters: '))
-    except ValueError:
+    answer = input('Guess the amount of characters: ')
+    if answer.isdigit(): 
+        answer = int(answer)
+    else:
         print('Invalid answer')
         continue
-    else:
-        break
+    if answer == 0:
+        print('Invalid answer')
+        continue
+    break
+        
 score = targetnumber - answer
 
 print()
@@ -50,13 +54,17 @@ characterlist.remove(charset[2])
 print(character * targetnumber2nd)
 
 while True:
-    try: 
-        answer = int(input('Guess the amount of characters: '))
-    except ValueError:
+    answer = input('Guess the amount of characters: ')
+    if answer.isdigit(): 
+        answer = int(answer)
+    else:
         print('Invalid answer')
         continue
-    else:
-        break
+    if answer == 0:
+        print('Invalid answer')
+        continue
+    break
+
 score = score + (targetnumber2nd - answer)
 
 print()
@@ -72,13 +80,17 @@ characterlist.remove(charset[2])
 print(character * targetnumber3rd)
 
 while True:
-    try: 
-        answer = int(input('Guess the amount of characters: '))
-    except ValueError:
+    answer = input('Guess the amount of characters: ')
+    if answer.isdigit(): 
+        answer = int(answer)
+    else:
         print('Invalid answer')
         continue
-    else:
-        break
+    if answer == 0:
+        print('Invalid answer')
+        continue
+    break
+
 score = score + (targetnumber3rd - answer)
 
 
@@ -89,7 +101,7 @@ print()
 allchar = targetnumber + targetnumber2nd + targetnumber3rd
 percent = (allchar - abs(score)) / allchar
 percentprint = format( percent, '.2%')
-print('Your score: ' + str(allchar - abs(score)) + '/' + str(allchar) + ' - ' + percentprint)
+print('Your score: ', allchar - abs(score), '/', allchar,  ' - ', percentprint)
 
 print()
 
