@@ -5,8 +5,8 @@ from openpyxl import Workbook, load_workbook
 wb = load_workbook('D:/Movies.xlsx', data_only=True)
 ws = wb.active
 
-#data_only=True -> copying values from excel instead of formulas for the Haveseen value
-#after line 67356 there is still a title at the moment (guide line 31)
+#data_only=True -> copying values from excel instead of formulas for the Haveseen cell value
+#after line 67356 there is still a title at the moment (guide to line 11 and 36)
 
 cellnumber = random.randrange(6,6736)
 
