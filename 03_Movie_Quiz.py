@@ -44,7 +44,7 @@ print("")
 # 4th Question
 print('What is the ring carrier`s profession?')
 answer = input('A.Be a nephew, B.Be a hobbit, C.Spartans: Auhh Auhh Auhh  ')
-if answer.upper() != 'A':
+if answer.upper() != 'B':
     print('Incorrect')
 else:
     print('Correct!')
