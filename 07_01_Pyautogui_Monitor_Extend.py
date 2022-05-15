@@ -7,9 +7,3 @@ pyautogui.press('p')
 pyautogui.press('p')
 pyautogui.press('p')
 pyautogui.press('enter')
-
-
-
-
-
-
