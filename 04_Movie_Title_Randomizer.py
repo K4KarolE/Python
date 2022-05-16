@@ -1,4 +1,7 @@
-# Movie Title Randomizer (from Excel where there are merged cells with the Movie titles)
+# Movie Title Randomizer
+# From my Excel we are pulling the "title", "year of release" and "how many times I have seen the movie" values
+# The infos are in merged cells -> if the first randomly selected cell is empty, it is going to check the next cell until it finds a record*
+#  *=after line 6736 there is still a title at the moment -> avoiding the search for valid cell on the empty/inactive part of the excel
 
 import random
 from openpyxl import Workbook, load_workbook
@@ -6,7 +9,6 @@ wb = load_workbook('D:/Movies.xlsx', data_only=True)
 ws = wb.active
 
 #data_only=True -> copying values from excel instead of formulas for the Haveseen cell value
-#after line 67356 there is still a title at the moment (guide to line 11 and 36)
 
 cellnumber = random.randrange(6,6736)
 

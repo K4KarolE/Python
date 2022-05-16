@@ -1,4 +1,7 @@
 # Amount Guessing Game - input validation
+# In 3 rounds it will display random amount* of characters and you have to guess the quantity
+# * = from a range which is increasing after every round (1nd, 2nd)
+# Displaying your points / %
 
 import random
 

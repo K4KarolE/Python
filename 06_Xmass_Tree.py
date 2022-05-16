@@ -1,3 +1,5 @@
+#Drawing xmass tree with unnecessarily complicated while loops - Hello rookie!
+
 x=0
 while True:
     q = '!' * (1+x)
