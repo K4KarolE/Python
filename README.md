@@ -23,10 +23,10 @@
 08 Automating the display sharing/extend update
    01 
    - From my main display(monitor), after pressing the `WIN + p` keys, 
-   - it will select the `Extend` options to use the monitor`s and the laptop`s display too
+   - it will select the 'Extend' options to use the monitor's and the laptop's display too
    02
-   - After pressing the `WIN + p` keys, from the `Extend` option (Extend = using the monitor`s and the laptop`s display the same time)
-   - it will jump to the `Second screen only` which is my main display/monitor
+   - After pressing the `WIN + p` keys, from the 'Extend' option (Extend = using the monitor's and the laptop's display the same time)
+   - it will jump to the 'Second screen only' which is my main display/monitor
    03
    - It will randomly select a number from the range -> that many times makes the display sharing (1 or 2 display, if only 1: monitor or paptop, ..)
    - selector jump and eventually selecting the option in the latest loop
