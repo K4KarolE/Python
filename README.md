@@ -2,6 +2,7 @@
 - asking if the user want to play
 - if yes: 5 questions with A, B, C, answer/input options
 - after every answer the result(Correct, Incorrect) is displayed
+- after the 5th answer the user's score and the % are displayed
 
 
 04 Movie Title Randomizer
