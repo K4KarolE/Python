@@ -1,7 +1,7 @@
 03 Movie Quiz
 - asking if the user want to play
 - if yes: 5 questions with A, B, C, answer/input options
-- after everey answer the result(Correct, Incorrect) is displayed
+- after every answer the result(Correct, Incorrect) is displayed
 
 
 04 Movie Title Randomizer
