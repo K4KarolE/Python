@@ -27,15 +27,16 @@
 
 08_01_Pyautogui_Monitor_Extend
    - pyautogui installation: Win: py -m pip install pyautogui \\ Linux: python3 -m pip install pyautogui \\ https://pyautogui.readthedocs.io/en/latest/install.html
-   - From my main display(monitor), after pressing the `WIN + p` keys, 
+   - From my main display(monitor), after pressing the `WIN key + p` keys
    - it will select the 'Extend' options to use the monitor's and the laptop's display too
+   - Linux Mint: no `WIN key + p` menu -> it switches between the different display sharing options every time the `WIN key + p` combination is actioned
 
 
 08_02_Pyautogui_Monitor_2nd_screen_only
-   - After pressing the `WIN + p` keys, from the 'Extend' option (Extend = using the monitor's and the laptop's display the same time)
+   - After pressing the `WIN key + p` keys, from the 'Extend' option (Extend = using the monitor's and the laptop's display the same time)
    - it will jump to the 'Second screen only' which is my main display/monitor
 
 
 08_03_Pyautogui_Monitor_BillyTheKid
-   - It will randomly select a number from the range -> that many times makes the display sharing (1 or 2 display, if only 1: monitor or paptop, ..)
-   - selector jump and eventually selecting the option in the latest loop
+   - It will randomly select a number from the added range -> that many times makes the display sharing jump in the `WIN key + p` menu
+   - eventually selecting the display sharing option in the latest jump
