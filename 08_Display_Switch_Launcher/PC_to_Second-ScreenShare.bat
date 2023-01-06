@@ -1,0 +1,1 @@
+@py.exe d:\_DEV\Python\py_03-08_projects\08_01_Pyautogui_Monitor_Extend.py %*

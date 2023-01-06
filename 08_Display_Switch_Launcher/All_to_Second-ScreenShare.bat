@@ -1,0 +1,1 @@
+@py.exe d:\_DEV\Python\py_03-08_projects\08_02_Pyautogui_Monitor_2nd_screen_only.py %*
