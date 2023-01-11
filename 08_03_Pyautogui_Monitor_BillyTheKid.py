@@ -11,8 +11,6 @@ print(x_times)
 with pyautogui.hold('win'):
         pyautogui.press(['p'], interval=0.3)
 
-
-
 z = 0  #counter
 
 while z != x_times:
