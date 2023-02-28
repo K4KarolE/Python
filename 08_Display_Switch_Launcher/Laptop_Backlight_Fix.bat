@@ -1,0 +1,1 @@
+@py.exe d:\_DEV\Python\py_03-08_projects\08_04_Pyautogui_Laptop_Backlight_Fix.py %*
