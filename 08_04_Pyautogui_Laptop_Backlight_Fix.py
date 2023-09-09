@@ -6,11 +6,11 @@
 import pyautogui
 
 with pyautogui.hold('win'):
-        pyautogui.press(['p'], interval=0.3)
+        pyautogui.press(['p'], interval=1)
 
 pyautogui.press('p')
 pyautogui.press('p')
 pyautogui.press('p')
-pyautogui.press(['enter'], interval=0.3)
+pyautogui.press(['enter'], interval=0.5)
 pyautogui.press('p')
 pyautogui.press('enter')
