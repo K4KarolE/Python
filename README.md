@@ -38,3 +38,11 @@
 ## 08_03_Pyautogui_Monitor_BillyTheKid
    - It will randomly select a number from the added range -> that many times makes the display sharing jump in the `WIN key + p` menu
    - eventually selecting the display sharing option in the latest jump
+
+
+## 08_04_Pyautogui_Laptop_Backlight_Fix
+   - It turns the unused laptop screen off by switching from "Additional monitor only" to "Extended(+laptop screen)" and back
+
+
+## 08_06 / 08_07
+   - Switching between the sound outputs (Speaker-Headset)
