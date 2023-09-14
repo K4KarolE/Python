@@ -46,3 +46,7 @@
 
 ## 08_06 / 08_07
    - Switching between the sound outputs (Speaker-Headset)
+
+
+## 08_08_Pyautogui_Sound_Turn_On-Off
+   - Switching the Sound`s state between MUTED and UNMUTED

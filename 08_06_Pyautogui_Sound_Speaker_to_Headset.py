@@ -1,5 +1,7 @@
 # Speaker --> Headset
-# 27" - 2560 x 1440 screen, Win 11
+# Screen: 2560 x 1440
+# Scale: 100%
+# OS: Win 11
 
 import pyautogui
 
