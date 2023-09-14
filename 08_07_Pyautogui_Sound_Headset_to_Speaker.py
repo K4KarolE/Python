@@ -1,16 +1,16 @@
 # Headset --> Speaker
-# 2560 x 1440 screen, Win 11
+# 27" - 2560 x 1440 screen, Win 11
 
 import pyautogui
 
 # Sound Icon
 pyautogui.leftClick(2430, 1410, interval=0.5)
 
-# Sound outputs
+# Sound Outputs
 pyautogui.leftClick(2510, 1295)
 
-# Select output
+# Select Output
 pyautogui.leftClick(2510, 1050)
 
-# Click away
+# Click Away
 pyautogui.leftClick(2560/2, 1440/2)
