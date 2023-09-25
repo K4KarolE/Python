@@ -6,7 +6,7 @@
 import pyautogui
 
 # Sound Icon
-pyautogui.leftClick(2430, 1410, interval=0.5)
+pyautogui.leftClick(2430, 1410, interval=1)
 
 # Sound Outputs
 pyautogui.leftClick(2510, 1295)
